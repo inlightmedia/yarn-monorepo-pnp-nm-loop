@@ -1,0 +1,14 @@
+{
+    "name": "nm",
+    "dependencies": {
+        "work1": "workspace:*",
+        "work2": "workspace:*"
+    },
+    "installConfig": {
+        "hoistingLimits": "workspaces"
+    },
+    "private": true,
+    "scripts": {
+        "print-all": "yarn workspaces foreach -Av run print"
+    }
+}

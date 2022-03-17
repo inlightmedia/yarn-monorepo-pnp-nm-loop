@@ -1,0 +1,10 @@
+{
+    "name": "monorepo",
+    "version": "0.0.1",
+    "description": "Repro for multi-project repo",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "packageManager": "yarn@3.2.0"
+}
